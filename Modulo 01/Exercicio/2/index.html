@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pares</title>
+</head>
+2º exercício
+Crie uma função que dado um intervalo (entre x e y) exiba todos número pares:
+function pares(x, y) {
+ // código aqui
+}
+pares(32, 321);
+<body>
+    <script>
+        var TotalDePares = 0;
+        function NumerosPares(x, y) {
+            for (var i = x; i <= y; i++) {
+                if (i % 2 == 0) {
+                    console.log(i);
+                    TotalDePares++
+                }
+            }
+            console.log("O total de números pares entre "+x+" e "+y+" é: "+TotalDePares+".");
+        }
+
+        NumerosPares(12, 98);
+        
+    </script>
+</body>
+
+</html>
